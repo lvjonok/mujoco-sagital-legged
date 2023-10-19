@@ -5,7 +5,7 @@
 <!-- =================================================================================== -->
 <robot name="b1_description">
   <mujoco>
-    <compiler discardvisual="false" />
+    <compiler discardvisual="false" meshdir="meshes/"/>
   </mujoco>
   <material name="black">
     <color rgba="0.0 0.0 0.0 1.0"/>
